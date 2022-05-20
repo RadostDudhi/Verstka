@@ -119,9 +119,6 @@ body{
     text-transform: lowercase;
     margin: auto 0;
 }
-.bike__slider .slick-dots{
-    
-}
 .slick-dots{
     position: absolute;
     right: 0;
@@ -146,7 +143,7 @@ body{
     transition: 0.3s;
 }
 .info{
-    margin-top: 150px;
+    margin: 150px 0;
 }
 .info__inner{
     display: flex;
