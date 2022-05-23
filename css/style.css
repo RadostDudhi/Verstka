@@ -6,6 +6,7 @@
 ul{
     margin: 0;
     list-style: none;
+    padding: 0;
 }
 li{
     padding-left: 0;
@@ -13,6 +14,9 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+}
+p{
+    margin: 0;
 }
 body{
     font-size: 14px;
@@ -50,7 +54,7 @@ body{
     color: #fff;
 }
 .bike{
-    padding: 100px 0px 150px;
+    padding: 100px 0px;
 }
 .bike__inner{
     display: flex;
@@ -169,4 +173,55 @@ body{
 }
 .info__item-text{
     min-width: 450px;
+}
+.characteristics{
+    margin-bottom: 150px;
+}
+.characteristics__top-title{
+    margin: 0 0 40px; 
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.characteristics__inner{
+    display: flex;
+}
+.characteristics__img{
+    align-self: center;
+}
+.characteristics__items{
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+.characteristics__list{
+    margin-bottom: 30px;
+}
+.characteristics__title{
+    padding: 2px 0 3px 1px;
+    text-transform: uppercase;
+    background: #131313;
+    color: #fff;
+    font-weight: 700;
+}
+.characteristics__line{
+    display: flex;
+    padding-top: 5px;
+}
+.characteristics__name{
+    flex-basis: 285px;
+    padding-right: 25px;
+}
+.characteristics__descr{
+    flex-basis: 285px;
+}
+.slider{
+    margin-bottom: 50px;
+}
+.slider__items .slick-dots{
+    top: 0;
+    left: 0;
+}
+.slider__item{
+    padding-left: 50px;
 }
