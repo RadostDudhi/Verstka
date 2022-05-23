@@ -342,4 +342,39 @@ body{
     letter-spacing: 1.1em;
     cursor: pointer;
 }
-
+.footer{
+    background-color: #131313;
+    color: #fff;
+    background-size: cover;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.footer__link{
+    font-size: 12px;
+    line-height: 15px;
+    left: 0;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.footer__social-link + .footer__social-link{
+    margin-left: 26px;
+}
+.footer__contacts{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+}
+.footer__contacts-link{
+    display: flex;
+    align-items: center;
+}
+.footer__contacts-link + .footer__contacts-link{
+    margin-top: 10px;
+}
+.footer__contacts-img{
+    margin-right: 10px;
+}
