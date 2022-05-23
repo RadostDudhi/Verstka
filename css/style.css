@@ -3,6 +3,9 @@
 *::before{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 ul{
     margin: 0;
     list-style: none;
@@ -54,7 +57,7 @@ body{
     color: #fff;
 }
 .bike{
-    padding: 100px 0px;
+    padding: 100px 0px 0px;
 }
 .bike__inner{
     display: flex;
@@ -97,11 +100,12 @@ body{
     text-transform: uppercase;
     letter-spacing: 1.1em;
     cursor: pointer;
+    border: none;
+    transition: all .3s;
 }
 .bike__link:hover,
 .form__btn:hover{
     background-color: #ff4040;
-    border: none;
 }
 .bike__list{
     display: flex;
@@ -150,7 +154,8 @@ body{
     transition: 0.3s;
 }
 .info{
-    margin: 150px 0;
+    padding-top: 150px;
+    margin-bottom: 50px;
 }
 .info__inner{
     display: flex;
@@ -178,6 +183,7 @@ body{
     min-width: 450px;
 }
 .characteristics{
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 .characteristics__top-title{
@@ -197,7 +203,7 @@ body{
     flex-basis: 570px;
     margin-right: 60px;
 }
-.characteristics__list{
+.characteristics__list + .characteristics__list{
     margin-bottom: 30px;
 }
 .characteristics__title{
@@ -341,6 +347,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 1.1em;
     cursor: pointer;
+    transition: all .3s;
+    border: none;
 }
 .footer{
     background-color: #131313;

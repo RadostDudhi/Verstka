@@ -1,0 +1,124 @@
+@media (max-width: 1110px){
+    .bike__inner{
+        flex-wrap: wrap;
+    }
+    .bike__column{
+        flex-basis: auto;
+        margin-bottom: 30px;
+    }
+    .bike__text{
+        max-width: 100%;
+    }
+    .bike{
+        padding: 0;
+    }
+    .bike__link{
+        margin-top: 30px;    
+    }
+    .bike__column-slider{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .info__img{
+        display: none;
+    }
+    .info__list{
+        max-width: 100%;
+    }
+    .info__item-text{
+        max-width: 100%;
+    }
+    .info{
+        padding-top: 50px;
+    }
+    .info__item + .info__item{
+        padding-top: 30px;
+    }
+    .characteristics{
+        padding-top: 30px;
+    }
+    .characteristics__inner{
+        flex-wrap: wrap;
+    }
+    .characteristics__img{
+        order: -1;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .characteristics__items{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .characteristics__name{
+        flex-basis: 50%;
+    }
+    .characteristics__descr{
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 991px){
+    .menu{
+        margin-right: 0;
+    }
+}
+@media (max-width: 670px){
+    .bike__title{
+        font-size: 44px;
+        line-height: 57px;
+        margin: 30px 0 5px;
+    }
+    .bike__subtitle{
+        margin: 0 0 30px;
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .bike__list{
+        flex-wrap: wrap;
+    }
+    .bike__list-item{
+        flex-basis: 50%;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 640px){
+    .header__inner{
+        display: block;
+        text-align: center;
+    }
+    .menu{
+        margin-top: 50px;
+    }
+    .menu__list{
+        justify-content: space-evenly;
+    }
+    .menu__item + .menu__item{
+        padding-left: 0;
+    }
+    .menu__link{
+        padding: 25px;
+    }
+}
+
+@media (max-width: 460px){
+    .menu__list{
+        justify-content: space-between;
+    }
+    .menu__link{
+        padding: 25px 5px;
+    }
+    .bike__link{
+       padding: 15px;
+       letter-spacing: 0.9em; 
+    }
+}
+
+@media (max-width: 350px){
+    .menu__link{
+        padding: 25px 5px;
+        font-size: 12px;
+    }
+    .menu{
+        margin-top: 30px;
+    }
+}
