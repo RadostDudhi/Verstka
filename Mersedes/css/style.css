@@ -14,12 +14,23 @@ body{
     font-weight: 400;
     font-family: 'Roboto Condensed', sans-serif;
 }
+ul{
+    list-style: none;
+}
 a{
     text-decoration: none;
     color: inherit;
 }
-li{
-    text-decoration: none;
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 .header{
 
@@ -30,8 +41,12 @@ li{
     justify-content: space-between;
     align-items: center;
 }
-.container{
-    max-width: 1220px;
-    margin: 0 auto;
-    padding: 0 10px;
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.list__link{
+    width: 40px;
+    height: 40px;
+    background-color: #c1a1d2 ;
 }
