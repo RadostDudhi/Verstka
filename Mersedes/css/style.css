@@ -6,6 +6,14 @@ html{
 *::before{
     box-sizing: inherit;
 }
+
+@font-face {
+    font-family: 'Corporate-A-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src:url('../fonts/Corporate-A-Bold.woff2') format('woff2'),
+        url('../fonts/Corporate-A-Bold.woff') format('woff');
+}
 body{
     background-color: #070A1B;
     color: #fff;
@@ -45,8 +53,49 @@ button{
     display: flex;
     justify-content: space-between;
 }
+.list__item + .list__item{
+    margin-left: 30px;
+}
 .list__link{
     width: 40px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background .3s;
+}
+.list__link:hover{
     background-color: #c1a1d2 ;
+}
+.header__content{
+    background-image: url(../images/header_img_1.png);
+    min-height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header__content::before{
+    content: "";
+    background-image: url(../images/logo\ 1.svg);
+    width: 50px;
+    height: 50px;
+}
+.title{
+    font-family: 'Corporate-A-Bold';
+    margin-bottom: 5px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 120%;
+    text-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
+}
+.text-descr{
+    font-size: 24px;
+    line-height: 120%;
+    text-shadow: 0px, 4px rgba(0, 0, 0, 0.25); 
+    margin-bottom: 50px;
 }
