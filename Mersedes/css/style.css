@@ -198,3 +198,26 @@ button{
 .video__btn:hover path{
     fill:#53a1cb;
 }
+.desidn__interior{
+    display: grid;
+    grid-template-columns: 255px 255px auto 330px;
+    grid-template-rows: auto auto;
+    gap: 14px 44px;
+}
+.design__cell-one{
+    grid-row: 1/3;
+}
+.design__cell-two{
+    grid-row-end: -1;
+    display: flex;
+    align-items: flex-end;
+}
+.design__cell-four{
+    grid-row-end: -1;
+    grid-column-end: -1;
+    display: flex;
+    align-items: flex-end;
+}
+.design__cell-text{
+    margin-bottom: 15px;
+}
