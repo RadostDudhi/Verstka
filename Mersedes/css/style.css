@@ -15,7 +15,7 @@ html{
         url('../fonts/Corporate-A-Bold.woff') format('woff');
 }
 body{
-    background-color: #070A1B;
+    background: linear-gradient(180deg, #070A1B 0%, #2a3170 100%);
     color: #fff;
     font-size: 16px;
     line-height: 120%;
@@ -65,6 +65,9 @@ button{
 .list__link:hover{
     background-color: #c1a1d2 ;
 }
+.header{
+    background-color: #070A1B;
+}
 .header__content{
     background-image: url(../images/header_img_1.png);
     min-height: calc(100vh - 100px);
@@ -102,6 +105,9 @@ button{
     text-shadow: 0px, 4px rgba(0, 0, 0, 0.25); 
     margin-bottom: 50px;
     bottom: 150px;
+}
+.footer{
+    background-color: #070A1B;
 }
 .footer__inner{
     height: 300px;
@@ -198,11 +204,15 @@ button{
 .video__btn:hover path{
     fill:#53a1cb;
 }
+.design{
+    
+}
 .desidn__interior{
     display: grid;
     grid-template-columns: 255px 255px auto 330px;
     grid-template-rows: auto auto;
     gap: 14px 44px;
+    margin-bottom: 100px;
 }
 .design__cell-one{
     grid-row: 1/3;
@@ -220,4 +230,44 @@ button{
 }
 .design__cell-text{
     margin-bottom: 15px;
+}
+.design__slider-item{
+    margin: 0 30px;
+}
+.slick-track{
+    margin-left: -35px;
+}
+.design__slider{
+    padding-bottom: 25px;
+}
+.arrow{
+    position: absolute;
+    z-index: 10px;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+}
+.arrow-left{
+    transform: translateX(-80px);
+}
+.arrow-right{
+    transform: translateX(30px);
+}
+.design__box{
+    max-width: 590px;
+    padding: 0 10px;
+    display: flex;
+    gap:60px;
+    margin: 150px auto;
+}
+.design__box-column{
+    max-width: 255px;
+}
+.design__box-text{
+    margin-bottom: 15px;
+}
+.design__img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
 }
