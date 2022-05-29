@@ -128,3 +128,36 @@ button{
     font-size: 24px;
     line-height: 120%;
 }
+.premier{
+   margin-bottom: 150px;
+}
+.premier__inner{
+    display: flex;
+    gap: 60px;
+}
+.premier__column{
+    max-width: 100%;
+}
+.premier__text{
+    margin-bottom: 21px;
+}
+.premier__img{
+    margin-bottom: 25px;
+}
+.premier__btn{
+    display: block;
+    width: 100%;
+    color: #F402A2;
+    padding: 14px;
+    border: 1px solid #f402a2;
+    font-family: 'Corporate-A-Bold';
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.premier__btn:hover{
+    color:#53a1cb;
+    border-color: #53a1cb;
+}
+
