@@ -267,7 +267,8 @@ button{
     margin-bottom: 15px;
 }
 .design__img{
-    max-width: 100%;
+    width: 100%;
     display: block;
     object-fit: cover;
+    
 }
