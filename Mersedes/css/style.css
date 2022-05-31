@@ -204,9 +204,6 @@ button{
 .video__btn:hover path{
     fill:#53a1cb;
 }
-.design{
-    
-}
 .desidn__interior{
     display: grid;
     grid-template-columns: 255px 255px auto 330px;
@@ -270,5 +267,4 @@ button{
     width: 100%;
     display: block;
     object-fit: cover;
-    
 }
