@@ -165,20 +165,21 @@ button{
 }
 .about{
     background-image: url(../images/about_fon.jpg);
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    background-size: cover;
 }
 .about__inner{
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
-.about__title{
+.title{
     font-family:'spaceagecyrilic' ;
+    font-weight: 400;
+    padding: 100px 0;
     font-weight: 400;
     font-size: 48px;
     line-height: 48px;
-    margin-bottom: 100px;
 }
 .about__item{
     display: flex;
@@ -210,7 +211,7 @@ button{
     margin-bottom: 50px;
 }
 .about__item + .about__item{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .about__list{
     display: flex;
@@ -271,4 +272,15 @@ button{
     line-height: 14px;
     color: #E5E5E5;
     margin-top: 20px;
+}
+.how{
+    background-image: url(../images/how_fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.how__title{
+    max-width: 578px;
+}
+.how__img{
+    margin: 0 auto 100px;
 }
