@@ -289,11 +289,28 @@ button{
 }
 .how-to__box{
     text-align: center;
-    transition: 0.5s;
 }
-.how-to__box circle:hover{
+.how-to__box circle,
+.how-to__box text,
+foreignObject{
+    font-size: 18px;
+    transition:all 0.5s;
+    cursor: pointer;
+}
+.how-to__box g:hover circle{
     r: 20px;
     fill:#036cca;
-    cursor: pointer;
+}
+.how-to__box g:hover text{
+    fill:#036cca;
+    font-size: 36px;
+    line-height: 43px;
+}
+.how-to__box g:hover foreignObject{
+    color:#036cca;
+    font-size: 22px;
     
+}
+foreignObject{
+    text-align: left;
 }
