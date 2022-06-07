@@ -314,3 +314,27 @@ foreignObject{
 foreignObject{
     text-align: left;
 }
+.to-book{
+    background-image: url(../images/to-book.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.to-book__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.to-book__text{
+    font-size: 14px;
+    line-height: 17px;
+    width: 165px;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: 52px;
+}
+.to-book__text + .to-book__text{
+    margin-right: 0;
+    margin-left: 0;
+}
+    
