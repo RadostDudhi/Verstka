@@ -541,3 +541,40 @@ height: 150px;
 .contacts__btn{
     margin-top: 70px;
 }
+.footer{
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px auto 150px;
+}
+.footer__inner{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 100px 0 150px;
+}
+.footer__text{
+    width: 165px;
+}
+p + p{
+    margin-top: 50px;
+}
+.footer__menu, 
+.footer__links{
+    width: 165px;
+}
+.footer__menu-item,
+.footer__links-item{
+    margin-bottom: 20px;
+}
+.footer__menu-link,
+.footer__links-link{
+    text-transform: uppercase;
+    transition: .3s;
+}
+.footer__menu-link:hover,
+.footer__links-link:hover{
+    color: #CB0E0E;
+}
