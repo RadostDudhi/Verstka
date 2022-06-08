@@ -455,3 +455,35 @@ background-image: url(../images/services.png);
 width: 192px;
 height: 150px;
 }
+.slider{
+    text-align: center;
+}
+.slider__inner{
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+    padding: 100px 0;
+}
+.slider__box{
+    
+}
+.slider-descr{
+    font-family:'spaceagecyrilic' ;
+    font-size: 24px;
+    line-height: 30px;
+}
+.slider__box-img{
+    margin: 0 auto;
+}
+.slider__arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.slider__arrow-left{
+    left: 75px;
+}
+.slider__arrow-right{
+    right: 75px;
+}
