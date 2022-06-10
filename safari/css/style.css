@@ -103,4 +103,22 @@ ul,li{
     text-align: center;
     margin-bottom: 15px;
 }
+.direction{
+    padding: 100px 0;
+}
+.direction__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+}
+.direction__img{
+    display: block;
+}
+.direction__text{
+    color: #1F1E1E;
+    font-size: 16px;
+    border: 1px solid #D9D9DE;
+    border-top: none;
+    padding: 10px 19px 14px;
+}
 
