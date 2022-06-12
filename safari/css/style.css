@@ -198,3 +198,9 @@ ul,li{
 .popular__time{
     margin-bottom: 15px;
 }
+.map{
+    padding-bottom: 100px;
+}
+.map__title{
+    margin-bottom: 46px;
+}
