@@ -133,7 +133,6 @@ ul,li{
     font-size: 36px;
     line-height: 130%;
     text-align: center;
-    margin-bottom: 40px;
 }
 .travel-info__title{
     color: #fff;
@@ -163,6 +162,9 @@ ul,li{
     grid-gap: 32px;
     padding-bottom: 80px;
     border-bottom: 1px solid #D9D9DE;
+}
+.popular__title{
+    margin-bottom: 40px;
 }
 .popular__link{
     padding: 16px 24px 19px;
@@ -234,6 +236,40 @@ ul,li{
     justify-content: center;
     align-items: center;
 }
-.about__link-img{
-   
+.gallery{
+    padding: 50px 0 105px;
+    background-color: #886239;
+}
+.gallery__top{
+    margin-bottom: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery__link{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-right: 160px;
+}
+.gallery__item-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+.slick-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    top: -85px;
+}
+.slick-prev{
+    right: 60px;
+}
+.slick-next{
+    right: 0;
 }
