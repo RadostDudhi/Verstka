@@ -204,3 +204,36 @@ ul,li{
 .map__title{
     margin-bottom: 46px;
 }
+.about{
+    margin-bottom: 100px;
+}
+.about__inner{
+    display: grid;
+    grid-template-columns: 448px 640px;
+    grid-gap: 32px;
+}
+.about__title{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.about__text{
+    margin-bottom: 34px;
+}
+.about__link{
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #C4C4C4;
+}
+.about__popup{
+    background-image: url(../images/popup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__link-img{
+   
+}
