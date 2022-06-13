@@ -273,3 +273,55 @@ ul,li{
 .slick-next{
     right: 0;
 }
+.tour{
+    padding: 100px 0;
+}
+.tour__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    padding-bottom: 77px;
+}
+.tour__inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+    padding-bottom: 65px;
+    border-bottom: 1px solid #D9D9DE;
+}
+.tour__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 541px;
+}
+.tour__text span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.tour__items{
+    margin-top: 44px;
+}
+.tour__list{
+    display: flex;
+    justify-content: space-between;
+}
+.tour__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.item__num{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 130%;  
+    color: #886239;
+}
+.item__text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
