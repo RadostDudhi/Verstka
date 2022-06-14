@@ -284,10 +284,9 @@ ul,li{
     padding-bottom: 77px;
 }
 .tour__inner{
-    display: flex;
-    justify-content: space-between;
-    gap: 46px;
-    padding-bottom: 65px;
+    column-count: 2;
+    column-gap: 46px;
+    padding-bottom: 45px;
     border-bottom: 1px solid #D9D9DE;
 }
 .tour__box{
@@ -295,6 +294,9 @@ ul,li{
     flex-direction: column;
     justify-content: space-between;
     max-width: 541px;
+}
+.tour__text{
+    margin-bottom: 20px;
 }
 .tour__text span{
     font-weight: 700;
@@ -324,4 +326,8 @@ ul,li{
     font-weight: 500;
     font-size: 20px;
     line-height: 130%;
+}
+.booking{
+    background-color: #eaeaea;
+    padding: 75px 0;
 }
