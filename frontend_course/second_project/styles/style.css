@@ -129,8 +129,13 @@ body {
     margin-top: 40px;
 }
 
-.car__img {
+.car__img:hover{
+    transform: scale(110%);
+}
+
+.car__img{
     vertical-align: bottom;
+    transition: all .3s;
 }
 
 .car__item-title {
@@ -156,7 +161,8 @@ body {
 .car__item-point img {
     margin-bottom: 11px;
 }
-.car__item-point > div:nth-child(2){
+
+.car__item-point > div:nth-child(2) {
     font-weight: bold;
 }
 
@@ -169,26 +175,31 @@ body {
     width: 100%;
     height: 54px;
 }
+
 .price {
     overflow: hidden;
 }
-.price .container{
+
+.price .container {
     position: relative;
     padding-bottom: 121px;
 }
-.price .sub__title{
+
+.price .sub__title {
     margin-bottom: 20px;
 }
-.price__text{
+
+.price__text {
     font-size: 16px;
     line-height: 130%;
     margin-bottom: 60px;
 }
-.price__form{
+
+.price__form {
     max-width: 344px;
 }
 
-.price__input{
+.price__input {
     border: 1px solid #5D5D5F;
     padding: 22px 18px;
     width: 100%;
@@ -196,25 +207,30 @@ body {
     margin-bottom: 10px;
     outline: none;
 }
-.price .button{
+
+.price .button {
     width: 100%;
     border: 0;
 }
-.price__img{
+
+.price__img {
     position: absolute;
     bottom: 0;
     left: 401px;
 }
-.footer{
+
+.footer {
     border-top: 1px solid #E5E5E5;
     padding: 20px 0;
 }
-.footer .container{
+
+.footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.rights{
+
+.rights {
     font-size: 15px;
     line-height: 18px;
 }

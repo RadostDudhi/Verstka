@@ -42,7 +42,7 @@
                 рулем настоящей легенды и узнать, на что она способна за пределами гоночной трассы!
             </p>
             <div class="main__action">
-                <button class="button">Посмотреть автомобили</button>
+                <button class="button" id="main__action">Посмотреть автомобили</button>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="car__item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car__btn">ЗАбронировать</button>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="car__item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car__btn">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car__item">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="car__item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car__btn">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car__item">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
                 <div class="car__item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car__btn">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car__item">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <div class="car__item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car__btn">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car__item">
@@ -179,7 +179,7 @@
                     <div class="car__item-point">
                         <img src="images/gear.png" alt="">
                         <div>Привод</div>
-                        <div>Полный</div>
+                        <div>полный</div>
                     </div>
                     <div class="car__item-point">
                         <img src="images/circle.svg" alt="">
@@ -193,7 +193,7 @@
                     </div>
                 </div>
                 <div class="car__item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car__btn">ЗАбронировать</button>
                 </div>
             </div>
         </div>
@@ -204,10 +204,10 @@
         <h2 class="sub__title">Узнать цену и забронировать</h2>
         <div class="price__text">Заполните данные, и мы перезвоним вам для уточнения всех деталей бронирования</div>
         <form action="" class="price__form">
-            <input type="text" class="price__input" placeholder="Ваше имя">
-            <input type="text" class="price__input" placeholder="Ваш телефон">
-            <input type="text" class="price__input" placeholder="Автомобиль, который вас интересует">
-            <button class="button">Узнать цену</button>
+            <input type="text" class="price__input" id="name" placeholder="Ваше имя">
+            <input type="text" class="price__input" id="phone" placeholder="Ваш телефон">
+            <input type="text" class="price__input" id="avto" placeholder="Автомобиль, который вас интересует">
+            <button type="button" class="button" id="price__action">Узнать цену</button>
         </form>
         <img class="price__img" src="images/rolls.png" alt="Rolls">
     </div>
@@ -222,5 +222,6 @@
         <div class="rights">Все права защищены</div>
     </div>
 </footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
